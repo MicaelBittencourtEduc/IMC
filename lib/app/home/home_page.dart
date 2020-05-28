@@ -116,11 +116,7 @@ class _HomePageState extends ModularState<HomePage, HomeController> {
                         style: TextStyle(fontSize: 20, color: Colors.white),
                       ),
                       onPressed: () {
-                        print(controller.altura);
-                        print(controller.peso);
-                        print(controller.status);
                         controller.setListData();
-                        print(controller.resultado);
                       },
                     ),
                     Observer(builder: (_) {

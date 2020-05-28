@@ -7,7 +7,6 @@ class HomeModule extends ChildModule {
   @override
   List<Bind> get binds => [
         Bind((i) => HomeController()),
-        //Bind<ISharedRepositoryInterface>((i) => SharedRepository()),
       ];
 
   @override
